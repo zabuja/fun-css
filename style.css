@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.parent-grid {
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    max-width: 540px;
+    text-align: left;
+    overflow: visible;
+
+}
+
+.header {padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+td {
+    border: 1px solid black;
+    height: 200px;
+}
+
+
+th {
+    border: 1px solid black;
+}
+
+.cont {
+    width: 100%;
+    display: flex;
+}
+
+.address {
+    border: 1px solid rgb(0, 0, 0);
+    width: 180px;
+}
+
+.total {
+
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.icon {
+    /* width: 33% !important; */
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+
+.bank {
+    width: 180px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.charges {
+    padding-left: 45%;
+    padding-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 100px;
+}
+
+.tnc {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.sign {
+    padding-left: 75%;
+    padding-top: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 100px;
+}
+
+.mid-wrap {
+    border: 1px solid black;
+    width: 180px;
+}
+
+.third-wrap {
+    width: 180px;
+}
+
+.date .client,
+.quote {
+    border: 1px solid black;
+}
